@@ -4,7 +4,6 @@ from django.contrib.auth.models import AbstractUser
 # Create your models here.
 class UserModel(AbstractUser):
     class Meta:
-        db_table = 'user'
+        db_table = 'users'
     
-    bio = models.CharField(max_length=256, default='')
-    
+    cat_name = models.CharField(max_length=256, default='')

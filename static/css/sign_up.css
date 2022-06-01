@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Indie+Flower&display=swap');
+
+.html,
+.body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.whole_background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/backgorund.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    height: 0px;
+}
+
+.email_input {
+    position: relative;
+    top: 45rem;
+    z-index: 1;
+    width: 620px !important;
+    height: 70px !important;
+    margin: auto;
+    border-radius: 15px !important;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 25px !important;
+    font-family: 'Hi Melody', cursive;
+    border: none;
+    color: rgb(40, 40, 40);
+
+}
+
+.email_input:focus {
+    outline: none;
+    border: none;
+}
+
+.password_input {
+    position: relative;
+    top: 55rem;
+    z-index: 1;
+    width: 620px !important;
+    height: 70px !important;
+    margin: auto;
+    border-radius: 15px !important;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 25px !important;
+    font-family: 'Hi Melody', cursive;
+    color: rgb(40, 40, 40);
+}
+
+.password_input:focus {
+    outline: none;
+    border: none;
+}
+
+.desc_input {
+    position: relative;
+    top: 65rem;
+    z-index: 1;
+    width: 620px !important;
+    height: 70px !important;
+    margin: auto;
+    border-radius: 15px !important;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 25px !important;
+    font-family: 'Hi Melody', cursive;
+    border: none;
+    color: rgb(40, 40, 40);
+
+}
+
+.desc_input:focus {
+    outline: none;
+    border: none;
+}
+
+.title {
+    position: relative;
+    top: 33rem;
+    margin: auto;
+    z-index: 1;
+    width: 1005px;
+    margin: auto;
+    height: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.title_text {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #691111;
+}
+
+.sign_up_button {
+    display: block;
+    position: relative;
+    top: 75rem;
+    width: 620px;
+    height: 70px;
+    background-color: #691111;
+    z-index: 1;
+    border-radius: 15px;
+    opacity: 0.6;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 70px;
+}
