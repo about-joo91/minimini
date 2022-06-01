@@ -3,6 +3,7 @@
 ## 목업
 
 ![Group 13](https://user-images.githubusercontent.com/55477835/171114645-3ecc8b77-dd00-4bfe-87a4-69f4007112da.png)
+![디테일 페이지](https://user-images.githubusercontent.com/55477835/171347517-ac938352-b990-4780-a155-3013f0fa1278.png)
 
 ## 기능구현
 ### 유저앱
